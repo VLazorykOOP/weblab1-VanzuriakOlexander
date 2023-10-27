@@ -81,3 +81,7 @@ aside {
 aside > p {
   margin: 0.5rem;
 }
+
+marquee {
+  vspace: 5%;
+}
