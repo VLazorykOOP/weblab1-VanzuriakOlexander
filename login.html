@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/mycss.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body> 
+    <header>
+        <a href="./index.html">Головна</a>
+        <a href="./store.html">Комп'ютерні аксесуари</a>
+        <a href="./news.html">Новини</a>
+        <a href="./table.html">Про нас</a>
+        <a href="./login.html">Логін</a>
+      </header>
+        <form action="#">
+              <div class="container" tabindex="0">
+                  <label><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" tabindex="0" required>
+            
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" tabindex="0" required>
+                
+                <div>
+                  <label id="select-label"><b>Select</b></label>
+
+                  <select name="choose" id="choose" tabindex="0">
+                    <optgroup label="How login">
+                      <option style="display:none"></option>
+                      <option value="customer">Customer</option>
+                      <option value="employer">Employer</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <label id="leave-comment"><b>Leave comment:</b></label><br />
+                <textarea tabindex="4" rows="0" cols="50"></textarea>
+                <button type="submit" tabindex="0">Login</button>
+                <input type="checkbox" id="remenber-me" name="remenber" tabindex="">
+                
+                <label><b>Remember me</b></label><br>
+              </div>
+        </form>
+</body>
+</html>

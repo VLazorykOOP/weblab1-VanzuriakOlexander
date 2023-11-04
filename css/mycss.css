@@ -82,6 +82,44 @@ aside > p {
   margin: 0.5rem;
 }
 
-marquee {
-  vspace: 5%;
+table, th, td {
+  border: 1px solid black;
+}
+
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#leave-comment {
+  display: block;
+  margin-top: 15px;
+}
+
+#choose {
+  width: 80%;
+  height: 40px;
+}
+
+#select-label {
+  margin-right: 30px;
 }
